@@ -1,3 +1,25 @@
+# install few dependencies in order to run the app
+
+ npm install --save redux-thunk
+ npm install --save react-router-dom
+ npm install --save react-router
+ npm install --save redux-devtools-extension
+
+# connect the backend in order to login or register
+  create a folder called server
+  
+ create index.js file (using text editor)
+ 
+ npm init -y (it will create package.json)(server folder cmd)
+ npm install express
+ npm install mongoose
+ npm install cors
+ npm install body-parser (a node module will be created)
+ 
+ then node index.js to start the port
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
